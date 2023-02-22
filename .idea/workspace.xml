@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd61a418-b50a-40c2-b59f-9f4a74f833cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/KrasiAQA/Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/KrasiAQA/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTestPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SearcFieldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/KrasiAQA/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/KrasiAQA/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/KrasiAQA/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SearcFieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearcFieldTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +40,19 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.SearcFieldTest.FindUser">
+    <configuration name="SearcFieldTest.FindUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SearchField_KrasiK_FinalAQA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearcFieldTest" />
+      <option name="METHOD_NAME" value="FindUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearcFieldTest.SearchFieldIsVisibleAfterLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SearchField_KrasiK_FinalAQA" />
       <option name="PACKAGE_NAME" value="" />
@@ -60,6 +67,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearcFieldTest.FindUser" />
         <item itemvalue="TestNG.SearcFieldTest.SearchFieldIsVisibleAfterLogin" />
       </list>
     </recent_temporary>
@@ -73,15 +81,32 @@
       <option name="presentableId" value="Default" />
       <updated>1676920447308</updated>
     </task>
+    <task id="LOCAL-00001" summary="search field commit">
+      <created>1676925235548</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676925235548</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="search field commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="search field commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/KrasiAQA/Header.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/SearcFieldTest.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="1" />
+          <line>29</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
