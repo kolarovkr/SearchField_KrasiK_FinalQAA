@@ -1,4 +1,4 @@
-package org.KrasiAQA;
+package org.krasi.qa.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,8 +8,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
-
-import static org.openqa.selenium.support.PageFactory.initElements;
 
 public class Header {
     private final WebDriver driver;
@@ -55,6 +53,5 @@ public class Header {
         searchBar.sendKeys("krasik");
         wait.until(ExpectedConditions.visibilityOf(userKrasiK));
     }
-
 
 }

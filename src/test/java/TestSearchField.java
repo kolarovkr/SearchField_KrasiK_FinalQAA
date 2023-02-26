@@ -1,10 +1,11 @@
-import org.KrasiAQA.Header;
-import org.KrasiAQA.LoginPage;
+import org.krasi.qa.pages.Header;
+import org.krasi.qa.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class SearcFieldTest extends BaseTestPage {
+public class TestSearchField extends TestObject{
+
 
     @DataProvider(name = "getUsers")
     public Object[][] getUsers(){
@@ -12,17 +13,17 @@ public class SearcFieldTest extends BaseTestPage {
         };
     }
 
-@Test(dataProvider = "getUsers")
-public void SearchFieldIsVisibleAfterLogin(String username, String password){
+    @Test(dataProvider = "getUsers")
+    public void testSearchFieldIsVisibleAfterLogin(String username, String password){
 
         LoginPage loginPage = new LoginPage(getDriver());
-    loginPage.logIn(username, password);
-    Header header = new Header(getDriver());
-    Assert.assertTrue(header.isSearchBarVisible());
-        }
+        loginPage.logIn(username, password);
+        Header header = new Header(getDriver());
+        Assert.assertTrue(header.isSearchBarVisible());
+    }
 
     @Test(dataProvider = "getUsers")
-    public void FindUser(String username, String password) {
+    public void testFindUser(String username, String password) {
 
         LoginPage loginPage = new LoginPage(getDriver());
         loginPage.logIn(username, password);

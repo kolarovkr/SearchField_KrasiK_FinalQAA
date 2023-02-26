@@ -1,4 +1,4 @@
-package org.KrasiAQA;
+package org.krasi.qa.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,7 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class LoginPage {
-
 
     public static final String PAGE_URL = "http://training.skillo-bg.com:4300/users/login";
     private final WebDriver driver;

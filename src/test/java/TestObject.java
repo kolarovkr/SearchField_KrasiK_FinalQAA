@@ -4,26 +4,21 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
-import java.util.HashMap;
-import java.util.Map;
 
-public class BaseTestPage {
-
+public class TestObject {
 
     public static final String TEST_RESOURCES_DIR = "src\\test\\";
 
-    public static final String SCREENSHOTS_DIR = TEST_RESOURCES_DIR.concat("Screenshot\\");
+    public static final String SCREENSHOTS_DIR = TEST_RESOURCES_DIR.concat("Screenshots\\");
     public static final String REPORTS_DIR = TEST_RESOURCES_DIR.concat("Reports\\");
     private WebDriver driver;
 
@@ -88,6 +83,5 @@ public class BaseTestPage {
     protected WebDriver getDriver() {
         return driver;
     }
-
 
 }
