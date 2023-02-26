@@ -1,5 +1,6 @@
 package org.krasi.qa.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -47,11 +48,18 @@ public class Header {
         return searchBar.isDisplayed();
     }
 
-    public void findUser(){
+    public void findUser(String user){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
         wait.until(ExpectedConditions.visibilityOf(searchBar));
-        searchBar.sendKeys("krasik");
-        wait.until(ExpectedConditions.visibilityOf(userKrasiK));
+        searchBar.sendKeys(user);
+        WebElement findUser = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText(user)));
+    }
+    public void selectUser(String user){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
+        wait.until(ExpectedConditions.visibilityOf(searchBar));
+        searchBar.sendKeys(user);
+        WebElement findUser = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText(user)));
+        findUser.click();
     }
 
 }

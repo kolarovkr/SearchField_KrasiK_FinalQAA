@@ -4,12 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd61a418-b50a-40c2-b59f-9f4a74f833cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pageobject/Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pageobject/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pageobject/LoginPage.java" afterDir="false" />
+    <list default="true" id="dd61a418-b50a-40c2-b59f-9f4a74f833cf" name="Changes" comment="run tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pageobject/UserPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pages/UserPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/testFindUser.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/testIsSearchBarVisibleAfterLogin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestSearchField.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/SearchField_KrasiK_FinalQAA.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pages/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pages/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSearchField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSearchField.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +80,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TestSearchField.testIsSearchBarVisibleAfterLogin">
+  <component name="RunManager" selected="TestNG.TestSearchField">
     <configuration name="SearcFieldTest.FindUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SearchField_KrasiK_FinalAQA" />
       <option name="PACKAGE_NAME" value="" />
@@ -87,6 +122,20 @@
       <option name="USE_DEFAULT_REPORTERS" value="true" />
       <option name="PROPERTIES_FILE" value="" />
       <properties />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSearchField.testFindUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SearchField_KrasiK_FinalAQA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSearchField" />
+      <option name="METHOD_NAME" value="testFindUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,6 +154,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.TestSearchField.testFindUser" />
       <item itemvalue="TestNG.SearcFieldTest.FindUser" />
       <item itemvalue="TestNG.SearcFieldTest.SearchFieldIsVisibleAfterLogin" />
       <item itemvalue="TestNG.TestSearchField" />
@@ -112,8 +162,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSearchField.testIsSearchBarVisibleAfterLogin" />
         <item itemvalue="TestNG.TestSearchField" />
+        <item itemvalue="TestNG.TestSearchField.testIsSearchBarVisibleAfterLogin" />
+        <item itemvalue="TestNG.TestSearchField.testFindUser" />
         <item itemvalue="TestNG.SearcFieldTest.FindUser" />
         <item itemvalue="TestNG.SearcFieldTest.SearchFieldIsVisibleAfterLogin" />
       </list>
@@ -149,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677441999346</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="page object pages">
+      <created>1677443562159</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677443562159</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,7 +216,8 @@
     <MESSAGE value="rewriting the classes" />
     <MESSAGE value="rewriting the project" />
     <MESSAGE value="reports text file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="reports text file added" />
+    <MESSAGE value="page object pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="page object pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -167,6 +226,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/KrasiAQA/Header.java</url>
           <line>56</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/krasi/qa/pages/Header.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
