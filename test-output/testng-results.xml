@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="2" failed="4" skipped="0">
+<testng-results ignored="0" total="6" passed="3" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-26T23:42:07 EET" name="Default Suite" finished-at="2023-02-26T23:44:27 EET" duration-ms="140172">
+  <suite started-at="2023-02-27T07:56:52 EET" name="Default Suite" finished-at="2023-02-27T07:58:06 EET" duration-ms="74620">
     <groups>
     </groups>
-    <test started-at="2023-02-26T23:42:07 EET" name="SearchField_KrasiK_FinalQAA" finished-at="2023-02-26T23:44:27 EET" duration-ms="140172">
+    <test started-at="2023-02-27T07:56:52 EET" name="SearchField_KrasiK_FinalQAA" finished-at="2023-02-27T07:58:06 EET" duration-ms="74620">
       <class name="TestSearchField">
-        <test-method is-config="true" signature="setupTestSuite()[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:42:03 EET" name="setupTestSuite" finished-at="2023-02-26T23:42:07 EET" duration-ms="4073" status="PASS">
+        <test-method is-config="true" signature="setupTestSuite()[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:56:49 EET" name="setupTestSuite" finished-at="2023-02-27T07:56:52 EET" duration-ms="3119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTestSuite -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:42:07 EET" name="setUpTest" finished-at="2023-02-26T23:42:15 EET" duration-ms="8012" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:56:52 EET" name="setUpTest" finished-at="2023-02-27T07:56:56 EET" duration-ms="4627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="testFindUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:42:15 EET" name="testFindUser" data-provider="getUsers" finished-at="2023-02-26T23:42:31 EET" duration-ms="16106" status="FAIL">
+        <test-method signature="testFindUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:56:56 EET" name="testFindUser" data-provider="getUsers" finished-at="2023-02-27T07:57:11 EET" duration-ms="14937" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -39,16 +39,16 @@
 Build info: version: '4.7.1', revision: 'c6795baf1a3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.56, ms:edgeOptions: {debuggerAddress: localhost:64216}, msedge: {msedgedriverVersion: 110.0.1587.57 (01109f626421..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64216/devtoo..., se:cdpVersion: 110.0.1587.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b05cc085cce5a3d46fc27ded47774a3d]]>
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.56, ms:edgeOptions: {debuggerAddress: localhost:58112}, msedge: {msedgedriverVersion: 110.0.1587.57 (01109f626421..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58112/devtoo..., se:cdpVersion: 110.0.1587.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdaff1c3dfb91dcb199813c191de1d07]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "http://training.skillo-bg.com:4300/users/". Current url: "http://training.skillo-bg.com:4300/posts/all" (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.7.1', revision: 'c6795baf1a3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.56, ms:edgeOptions: {debuggerAddress: localhost:64216}, msedge: {msedgedriverVersion: 110.0.1587.57 (01109f626421..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64216/devtoo..., se:cdpVersion: 110.0.1587.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b05cc085cce5a3d46fc27ded47774a3d
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.56, ms:edgeOptions: {debuggerAddress: localhost:58112}, msedge: {msedgedriverVersion: 110.0.1587.57 (01109f626421..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58112/devtoo..., se:cdpVersion: 110.0.1587.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdaff1c3dfb91dcb199813c191de1d07
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 at org.krasi.qa.pages.UserPage.isUrlLoaded(UserPage.java:23)
@@ -86,22 +86,22 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFindUser -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:42:31 EET" name="tearDownTest" finished-at="2023-02-26T23:42:34 EET" duration-ms="2978" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:57:11 EET" name="tearDownTest" finished-at="2023-02-27T07:57:13 EET" duration-ms="1759" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testFindUser status=FAILURE method=TestSearchField.testFindUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@2e55dd0c] output={null}]]]>
+                <![CDATA[[TestResult name=testFindUser status=FAILURE method=TestSearchField.testFindUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@3fb1549b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:42:34 EET" name="setUpTest" finished-at="2023-02-26T23:42:39 EET" duration-ms="5614" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:57:13 EET" name="setUpTest" finished-at="2023-02-27T07:57:16 EET" duration-ms="2744" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="testFindUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:42:39 EET" name="testFindUser" data-provider="getUsers" finished-at="2023-02-26T23:43:19 EET" duration-ms="39375" status="FAIL">
+        <test-method signature="testFindUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:57:16 EET" name="testFindUser" data-provider="getUsers" finished-at="2023-02-27T07:57:23 EET" duration-ms="7111" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -119,200 +119,30 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[Expected condition failed: waiting for url to contain "http://training.skillo-bg.com:4300/users/". Current url: "http://training.skillo-bg.com:4300/posts/all" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.56, ms:edgeOptions: {debuggerAddress: localhost:64266}, msedge: {msedgedriverVersion: 110.0.1587.57 (01109f626421..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64266/devtoo..., se:cdpVersion: 110.0.1587.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 699d7cccc131453e580f091cf00f63c9]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "http://training.skillo-bg.com:4300/users/". Current url: "http://training.skillo-bg.com:4300/posts/all" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.56, ms:edgeOptions: {debuggerAddress: localhost:64266}, msedge: {msedgedriverVersion: 110.0.1587.57 (01109f626421..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64266/devtoo..., se:cdpVersion: 110.0.1587.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 699d7cccc131453e580f091cf00f63c9
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at org.krasi.qa.pages.UserPage.isUrlLoaded(UserPage.java:23)
-at TestSearchField.testFindUser(TestSearchField.java:34)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFindUser -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:43:19 EET" name="tearDownTest" finished-at="2023-02-26T23:43:21 EET" duration-ms="1725" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testFindUser status=FAILURE method=TestSearchField.testFindUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@2e55dd0c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:43:21 EET" name="setUpTest" finished-at="2023-02-26T23:43:26 EET" duration-ms="5410" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTest -->
-        <test-method signature="testFindUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:43:26 EET" name="testFindUser" data-provider="getUsers" finished-at="2023-02-26T23:43:43 EET" duration-ms="17011" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[manager@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Manager1.Use1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[gerov]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for url to contain "http://training.skillo-bg.com:4300/users/". Current url: "http://training.skillo-bg.com:4300/posts/all" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.56, ms:edgeOptions: {debuggerAddress: localhost:64319}, msedge: {msedgedriverVersion: 110.0.1587.57 (01109f626421..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64319/devtoo..., se:cdpVersion: 110.0.1587.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4f399a6a3340e78e4b5086a11eb58dac]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "http://training.skillo-bg.com:4300/users/". Current url: "http://training.skillo-bg.com:4300/posts/all" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.56, ms:edgeOptions: {debuggerAddress: localhost:64319}, msedge: {msedgedriverVersion: 110.0.1587.57 (01109f626421..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64319/devtoo..., se:cdpVersion: 110.0.1587.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4f399a6a3340e78e4b5086a11eb58dac
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at org.krasi.qa.pages.UserPage.isUrlLoaded(UserPage.java:23)
-at TestSearchField.testFindUser(TestSearchField.java:34)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFindUser -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:43:43 EET" name="tearDownTest" finished-at="2023-02-26T23:43:45 EET" duration-ms="2216" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testFindUser status=FAILURE method=TestSearchField.testFindUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@2e55dd0c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:43:45 EET" name="setUpTest" finished-at="2023-02-26T23:43:51 EET" duration-ms="5577" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTest -->
-        <test-method signature="testIsSearchBarVisibleAfterLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:43:51 EET" name="testIsSearchBarVisibleAfterLogin" data-provider="getUsers" finished-at="2023-02-26T23:43:59 EET" duration-ms="7994" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[krasiko]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[224339K]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Yoda]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#search\-bar"}
+              <![CDATA[stale element reference: element is not attached to the page document
   (Session info: MicrosoftEdge=110.0.1587.56)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.7.1', revision: 'c6795baf1a3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [64ee7be45752348537911f6d16cd2c29, findElement {using=id, value=search-bar}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.56, ms:edgeOptions: {debuggerAddress: localhost:64378}, msedge: {msedgedriverVersion: 110.0.1587.57 (01109f626421..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64378/devtoo..., se:cdpVersion: 110.0.1587.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 64ee7be45752348537911f6d16cd2c29]]>
+Command: [95c174185269b3c7ae8cf68c1b63d058, clickElement {id=1b10fc2b-f72e-4a88-b619-be63ca01f114}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.56, ms:edgeOptions: {debuggerAddress: localhost:58162}, msedge: {msedgedriverVersion: 110.0.1587.57 (01109f626421..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58162/devtoo..., se:cdpVersion: 110.0.1587.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (95c174185269b3c7ae8cf68c1b63d058)] -> link text: MARIELKATA]
+Session ID: 95c174185269b3c7ae8cf68c1b63d058]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#search\-bar"}
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: MicrosoftEdge=110.0.1587.56)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.7.1', revision: 'c6795baf1a3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [64ee7be45752348537911f6d16cd2c29, findElement {using=id, value=search-bar}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.56, ms:edgeOptions: {debuggerAddress: localhost:64378}, msedge: {msedgedriverVersion: 110.0.1587.57 (01109f626421..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64378/devtoo..., se:cdpVersion: 110.0.1587.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 64ee7be45752348537911f6d16cd2c29
+Command: [95c174185269b3c7ae8cf68c1b63d058, clickElement {id=1b10fc2b-f72e-4a88-b619-be63ca01f114}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.56, ms:edgeOptions: {debuggerAddress: localhost:58162}, msedge: {msedgedriverVersion: 110.0.1587.57 (01109f626421..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58162/devtoo..., se:cdpVersion: 110.0.1587.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (95c174185269b3c7ae8cf68c1b63d058)] -> link text: MARIELKATA]
+Session ID: 95c174185269b3c7ae8cf68c1b63d058
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -324,15 +154,10 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
-at org.krasi.qa.pages.Header.isSearchBarVisible(Header.java:48)
-at TestSearchField.testIsSearchBarVisibleAfterLogin(TestSearchField.java:23)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at org.krasi.qa.pages.Header.selectUser(Header.java:62)
+at TestSearchField.testFindUser(TestSearchField.java:32)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -362,26 +187,148 @@ at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testIsSearchBarVisibleAfterLogin -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:43:59 EET" name="tearDownTest" finished-at="2023-02-26T23:44:01 EET" duration-ms="1850" status="PASS">
+        </test-method> <!-- testFindUser -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:57:23 EET" name="tearDownTest" finished-at="2023-02-27T07:57:25 EET" duration-ms="1875" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testIsSearchBarVisibleAfterLogin status=FAILURE method=TestSearchField.testIsSearchBarVisibleAfterLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@2e55dd0c] output={null}]]]>
+                <![CDATA[[TestResult name=testFindUser status=FAILURE method=TestSearchField.testFindUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@3fb1549b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:44:01 EET" name="setUpTest" finished-at="2023-02-26T23:44:06 EET" duration-ms="5438" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:57:25 EET" name="setUpTest" finished-at="2023-02-27T07:57:28 EET" duration-ms="2655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="testIsSearchBarVisibleAfterLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:44:06 EET" name="testIsSearchBarVisibleAfterLogin" data-provider="getUsers" finished-at="2023-02-26T23:44:13 EET" duration-ms="7190" status="PASS">
+        <test-method signature="testFindUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:57:28 EET" name="testFindUser" data-provider="getUsers" finished-at="2023-02-27T07:57:45 EET" duration-ms="17196" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manager@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Manager1.Use1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gerov]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for url to contain "http://training.skillo-bg.com:4300/users/". Current url: "http://training.skillo-bg.com:4300/posts/all" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.56, ms:edgeOptions: {debuggerAddress: localhost:58215}, msedge: {msedgedriverVersion: 110.0.1587.57 (01109f626421..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58215/devtoo..., se:cdpVersion: 110.0.1587.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 809f4630503d9f70f9bb49f0e5dfc03a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "http://training.skillo-bg.com:4300/users/". Current url: "http://training.skillo-bg.com:4300/posts/all" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.56, ms:edgeOptions: {debuggerAddress: localhost:58215}, msedge: {msedgedriverVersion: 110.0.1587.57 (01109f626421..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58215/devtoo..., se:cdpVersion: 110.0.1587.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 809f4630503d9f70f9bb49f0e5dfc03a
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at org.krasi.qa.pages.UserPage.isUrlLoaded(UserPage.java:23)
+at TestSearchField.testFindUser(TestSearchField.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindUser -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:57:45 EET" name="tearDownTest" finished-at="2023-02-27T07:57:46 EET" duration-ms="1495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFindUser status=FAILURE method=TestSearchField.testFindUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@3fb1549b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:57:46 EET" name="setUpTest" finished-at="2023-02-27T07:57:49 EET" duration-ms="2781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testIsSearchBarVisibleAfterLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:57:49 EET" name="testIsSearchBarVisibleAfterLogin" data-provider="getUsers" finished-at="2023-02-27T07:57:52 EET" duration-ms="2689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[krasiko]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[224339K]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Yoda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsSearchBarVisibleAfterLogin -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:57:52 EET" name="tearDownTest" finished-at="2023-02-27T07:57:53 EET" duration-ms="1237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testIsSearchBarVisibleAfterLogin status=SUCCESS method=TestSearchField.testIsSearchBarVisibleAfterLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@3fb1549b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:57:53 EET" name="setUpTest" finished-at="2023-02-27T07:57:56 EET" duration-ms="2726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testIsSearchBarVisibleAfterLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:57:56 EET" name="testIsSearchBarVisibleAfterLogin" data-provider="getUsers" finished-at="2023-02-27T07:57:59 EET" duration-ms="2847" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -402,22 +349,22 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsSearchBarVisibleAfterLogin -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:44:13 EET" name="tearDownTest" finished-at="2023-02-26T23:44:15 EET" duration-ms="2058" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:57:59 EET" name="tearDownTest" finished-at="2023-02-27T07:58:00 EET" duration-ms="1228" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testIsSearchBarVisibleAfterLogin status=SUCCESS method=TestSearchField.testIsSearchBarVisibleAfterLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@2e55dd0c] output={null}]]]>
+                <![CDATA[[TestResult name=testIsSearchBarVisibleAfterLogin status=SUCCESS method=TestSearchField.testIsSearchBarVisibleAfterLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@3fb1549b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:44:15 EET" name="setUpTest" finished-at="2023-02-26T23:44:21 EET" duration-ms="5529" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:58:00 EET" name="setUpTest" finished-at="2023-02-27T07:58:02 EET" duration-ms="2598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="testIsSearchBarVisibleAfterLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:44:21 EET" name="testIsSearchBarVisibleAfterLogin" data-provider="getUsers" finished-at="2023-02-26T23:44:25 EET" duration-ms="4422" status="PASS">
+        <test-method signature="testIsSearchBarVisibleAfterLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:58:02 EET" name="testIsSearchBarVisibleAfterLogin" data-provider="getUsers" finished-at="2023-02-27T07:58:05 EET" duration-ms="2706" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -438,11 +385,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsSearchBarVisibleAfterLogin -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:TestSearchField@2e55dd0c]" started-at="2023-02-26T23:44:25 EET" name="tearDownTest" finished-at="2023-02-26T23:44:27 EET" duration-ms="1537" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:TestSearchField@3fb1549b]" started-at="2023-02-27T07:58:05 EET" name="tearDownTest" finished-at="2023-02-27T07:58:06 EET" duration-ms="1319" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testIsSearchBarVisibleAfterLogin status=SUCCESS method=TestSearchField.testIsSearchBarVisibleAfterLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@2e55dd0c] output={null}]]]>
+                <![CDATA[[TestResult name=testIsSearchBarVisibleAfterLogin status=SUCCESS method=TestSearchField.testIsSearchBarVisibleAfterLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestSearchField@3fb1549b] output={null}]]]>
               </value>
             </param>
           </params>

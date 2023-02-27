@@ -8,7 +8,6 @@
           <include name="setUpTest"/>
           <include name="setupTestSuite"/>
           <include name="testFindUser" invocation-numbers="0 1 2"/>
-          <include name="testIsSearchBarVisibleAfterLogin" invocation-numbers="0"/>
           <include name="tearDownTest"/>
         </methods>
       </class> <!-- TestSearchField -->
