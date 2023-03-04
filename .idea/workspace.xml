@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd61a418-b50a-40c2-b59f-9f4a74f833cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/Reports/testrun1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Reports/test3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Reports/testrun" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Screenshots/testIsSearchBarVisibleAfterLogin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Reports/testrun1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSearchField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSearchField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
@@ -197,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677448265226</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="text file run">
+      <created>1677477547529</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677477547529</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -209,7 +216,8 @@
     <MESSAGE value="page object pages" />
     <MESSAGE value="run tests text file" />
     <MESSAGE value="text file" />
-    <option name="LAST_COMMIT_MESSAGE" value="text file" />
+    <MESSAGE value="text file run" />
+    <option name="LAST_COMMIT_MESSAGE" value="text file run" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
