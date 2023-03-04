@@ -103,12 +103,12 @@
                     <div class="method-list-content failed suite-Default_Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_Suite" title="TestSearchField" class="method navigator-link" hash-for-method="testFindUser(krasik@gmail.com, 224339K, Yoda)">testFindUser(krasik@gmail.com, 224339K, Yoda)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_Suite" title="TestSearchField" class="method navigator-link" hash-for-method="testFindUser(krasik@gmail.com, 224339K, Startup2019)">testFindUser(krasik@gmail.com, 224339K, Startup2019)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_Suite" title="TestSearchField" class="method navigator-link" hash-for-method="testFindUser(testAdmin@gmail.com, Admin1.User1, MARIELKATA)">testFindUser(testAdmin@gmail.com, Admin1.User1, MARIELKATA)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_Suite" title="TestSearchField" class="method navigator-link" hash-for-method="testFindUser(manager@gmail.com, Manager1.Use1, gerov)">testFindUser(manager@gmail.com, Manager1.Use1, gerov)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_Suite -->
@@ -122,12 +122,12 @@
                     <div class="method-list-content passed suite-Default_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_Suite" title="TestSearchField" class="method navigator-link" hash-for-method="testFindUser(manager@gmail.com, Manager1.Use1, gerov)">testFindUser(manager@gmail.com, Manager1.Use1, gerov)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_Suite" title="TestSearchField" class="method navigator-link" hash-for-method="testFindUser(testAdmin@gmail.com, Admin1.User1, MARIELKATA)">testFindUser(testAdmin@gmail.com, Admin1.User1, MARIELKATA)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_Suite" title="TestSearchField" class="method navigator-link" hash-for-method="testIsSearchBarVisibleAfterLogin(krasik@gmail.com, 224339K, Yoda)">testIsSearchBarVisibleAfterLogin(krasik@gmail.com, 224339K, Yoda)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_Suite" title="TestSearchField" class="method navigator-link" hash-for-method="testIsSearchBarVisibleAfterLogin(krasik@gmail.com, 224339K, Startup2019)">testIsSearchBarVisibleAfterLogin(krasik@gmail.com, 224339K, Startup2019)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -160,69 +160,47 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testFindUser(krasik@gmail.com, 224339K, Yoda)">
-                  </a> <!-- testFindUser(krasik@gmail.com, 224339K, Yoda) -->
+                  <a name="testFindUser(krasik@gmail.com, 224339K, Startup2019)">
+                  </a> <!-- testFindUser(krasik@gmail.com, 224339K, Startup2019) -->
                   <span class="method-name">testFindUser</span>
-                  <span class="parameters">(krasik@gmail.com,224339K,Yoda)</span>
-                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: MicrosoftEdge=110.0.1587.57)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+                  <span class="parameters">(krasik@gmail.com,224339K,Startup2019)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.linkText: Startup2019 (tried for 40 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.7.1&apos;, revision: &apos;c6795baf1a3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e190043f8634f88ce506771003345d1c, clickElement {id=4a852228-6ec8-4a97-a4f9-65264dd4a5d3}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.57, ms:edgeOptions: {debuggerAddress: localhost:63335}, msedge: {msedgedriverVersion: 110.0.1587.63 (b26c9b8fc01e..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63335/devtoo..., se:cdpVersion: 110.0.1587.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (e190043f8634f88ce506771003345d1c)] -&gt; link text: Yoda]
-Session ID: e190043f8634f88ce506771003345d1c
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at org.krasi.qa.pages.Header.selectUser(Header.java:62)
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.57, ms:edgeOptions: {debuggerAddress: localhost:65424}, msedge: {msedgedriverVersion: 110.0.1587.63 (b26c9b8fc01e..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65424/devtoo..., se:cdpVersion: 110.0.1587.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 58e13cea2d00711e1abdcb38a51faa49
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.krasi.qa.pages.Header.selectUser(Header.java:61)
 	at TestSearchField.testFindUser(TestSearchField.java:32)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 28 stack frames
+... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testFindUser(testAdmin@gmail.com, Admin1.User1, MARIELKATA)">
-                  </a> <!-- testFindUser(testAdmin@gmail.com, Admin1.User1, MARIELKATA) -->
+                  <a name="testFindUser(manager@gmail.com, Manager1.Use1, gerov)">
+                  </a> <!-- testFindUser(manager@gmail.com, Manager1.Use1, gerov) -->
                   <span class="method-name">testFindUser</span>
-                  <span class="parameters">(testAdmin@gmail.com,Admin1.User1,MARIELKATA)</span>
-                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: MicrosoftEdge=110.0.1587.57)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+                  <span class="parameters">(manager@gmail.com,Manager1.Use1,gerov)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain &quot;http://training.skillo-bg.com:4300/users/&quot;. Current url: &quot;http://training.skillo-bg.com:4300/posts/all&quot; (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.7.1&apos;, revision: &apos;c6795baf1a3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [9fbb37e9399d47e032afc985889be838, clickElement {id=f20d4b68-ddd5-4981-a571-b58ed7db8873}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.57, ms:edgeOptions: {debuggerAddress: localhost:63380}, msedge: {msedgedriverVersion: 110.0.1587.63 (b26c9b8fc01e..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63380/devtoo..., se:cdpVersion: 110.0.1587.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (9fbb37e9399d47e032afc985889be838)] -&gt; link text: MARIELKATA]
-Session ID: 9fbb37e9399d47e032afc985889be838
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at org.krasi.qa.pages.Header.selectUser(Header.java:62)
-	at TestSearchField.testFindUser(TestSearchField.java:32)
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.57, ms:edgeOptions: {debuggerAddress: localhost:49154}, msedge: {msedgedriverVersion: 110.0.1587.63 (b26c9b8fc01e..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49154/devtoo..., se:cdpVersion: 110.0.1587.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 64184c569aaebc43c736326594a49033
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.krasi.qa.pages.UserPage.isUrlLoaded(UserPage.java:23)
+	at TestSearchField.testFindUser(TestSearchField.java:34)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 28 stack frames
+... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -236,18 +214,18 @@ Session ID: 9fbb37e9399d47e032afc985889be838
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testFindUser(manager@gmail.com, Manager1.Use1, gerov)">
-                  </a> <!-- testFindUser(manager@gmail.com, Manager1.Use1, gerov) -->
+                  <a name="testFindUser(testAdmin@gmail.com, Admin1.User1, MARIELKATA)">
+                  </a> <!-- testFindUser(testAdmin@gmail.com, Admin1.User1, MARIELKATA) -->
                   <span class="method-name">testFindUser</span>
-                  <span class="parameters">(manager@gmail.com,Manager1.Use1,gerov)</span>
+                  <span class="parameters">(testAdmin@gmail.com,Admin1.User1,MARIELKATA)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testIsSearchBarVisibleAfterLogin(krasik@gmail.com, 224339K, Yoda)">
-                  </a> <!-- testIsSearchBarVisibleAfterLogin(krasik@gmail.com, 224339K, Yoda) -->
+                  <a name="testIsSearchBarVisibleAfterLogin(krasik@gmail.com, 224339K, Startup2019)">
+                  </a> <!-- testIsSearchBarVisibleAfterLogin(krasik@gmail.com, 224339K, Startup2019) -->
                   <span class="method-name">testIsSearchBarVisibleAfterLogin</span>
-                  <span class="parameters">(krasik@gmail.com,224339K,Yoda)</span>
+                  <span class="parameters">(krasik@gmail.com,224339K,Startup2019)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -324,27 +302,27 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testFindUser')
 data.setCell(0, 2, 'TestSearchField')
-data.setCell(0, 3, 27329);
+data.setCell(0, 3, 46837);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testFindUser')
 data.setCell(1, 2, 'TestSearchField')
-data.setCell(1, 3, 23071);
+data.setCell(1, 3, 15729);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testFindUser')
 data.setCell(2, 2, 'TestSearchField')
-data.setCell(2, 3, 4295);
+data.setCell(2, 3, 7957);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testIsSearchBarVisibleAfterLogin')
 data.setCell(3, 2, 'TestSearchField')
-data.setCell(3, 3, 2695);
+data.setCell(3, 3, 5252);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testIsSearchBarVisibleAfterLogin')
 data.setCell(4, 2, 'TestSearchField')
-data.setCell(4, 3, 2344);
+data.setCell(4, 3, 3216);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testIsSearchBarVisibleAfterLogin')
 data.setCell(5, 2, 'TestSearchField')
-data.setCell(5, 3, 2247);
+data.setCell(5, 3, 3055);
 window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
 return data;
 }
@@ -382,79 +360,79 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">3069 ms</span>
+                <span class="method-start">3506 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">testFindUser(krasik@gmail.com, 224339K, Yoda)</span>
-                <span class="method-start">7315 ms</span>
+                <span class="method-name">testFindUser(krasik@gmail.com, 224339K, Startup2019)</span>
+                <span class="method-start">11104 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownTest([TestResult name=testFindUser status=FAILURE method=TestSearchField.testFindUser(java.lang.String,ja...)</span>
-                <span class="method-start">11633 ms</span>
+                <span class="method-start">57957 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">13155 ms</span>
+                <span class="method-start">60615 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testFindUser(testAdmin@gmail.com, Admin1.User1, MARIELKATA)</span>
-                <span class="method-start">15675 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDownTest([TestResult name=testFindUser status=FAILURE method=TestSearchField.testFindUser(java.lang.String,ja...)</span>
-                <span class="method-start">43007 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpTest</span>
-                <span class="method-start">45800 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testFindUser(manager@gmail.com, Manager1.Use1, gerov)</span>
-                <span class="method-start">48257 ms</span>
+                <span class="method-start">65588 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownTest([TestResult name=testFindUser status=SUCCESS method=TestSearchField.testFindUser(java.lang.String,ja...)</span>
-                <span class="method-start">71329 ms</span>
+                <span class="method-start">73546 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">72562 ms</span>
+                <span class="method-start">75174 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testIsSearchBarVisibleAfterLogin(krasik@gmail.com, 224339K, Yoda)</span>
-                <span class="method-start">75028 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFindUser(manager@gmail.com, Manager1.Use1, gerov)</span>
+                <span class="method-start">79447 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownTest([TestResult name=testFindUser status=FAILURE method=TestSearchField.testFindUser(java.lang.String,ja...)</span>
+                <span class="method-start">95183 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpTest</span>
+                <span class="method-start">96729 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testIsSearchBarVisibleAfterLogin(krasik@gmail.com, 224339K, Startup2019)</span>
+                <span class="method-start">101205 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownTest([TestResult name=testIsSearchBarVisibleAfterLogin status=SUCCESS method=TestSearchField.testIsSearch...)</span>
-                <span class="method-start">77724 ms</span>
+                <span class="method-start">106458 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">78863 ms</span>
+                <span class="method-start">107756 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testIsSearchBarVisibleAfterLogin(testAdmin@gmail.com, Admin1.User1, MARIELKATA)</span>
-                <span class="method-start">81409 ms</span>
+                <span class="method-start">112104 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownTest([TestResult name=testIsSearchBarVisibleAfterLogin status=SUCCESS method=TestSearchField.testIsSearch...)</span>
-                <span class="method-start">83657 ms</span>
+                <span class="method-start">115159 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">84780 ms</span>
+                <span class="method-start">116465 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testIsSearchBarVisibleAfterLogin(manager@gmail.com, Manager1.Use1, gerov)</span>
-                <span class="method-start">87318 ms</span>
+                <span class="method-start">120709 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownTest([TestResult name=testIsSearchBarVisibleAfterLogin status=SUCCESS method=TestSearchField.testIsSearch...)</span>
-                <span class="method-start">89662 ms</span>
+                <span class="method-start">123925 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

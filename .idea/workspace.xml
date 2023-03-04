@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd61a418-b50a-40c2-b59f-9f4a74f833cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/Reports/test3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Reports/testrun1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pageobject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pageobject/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Reports/testpages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Screenshots/testFindUser.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Screenshots/testFindUser.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestSearchField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSearchField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.xml" afterDir="false" />
@@ -139,8 +140,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestSearchField" />
-        <item itemvalue="TestNG.TestSearchField.testIsSearchBarVisibleAfterLogin" />
         <item itemvalue="TestNG.TestSearchField.testFindUser" />
+        <item itemvalue="TestNG.TestSearchField.testIsSearchBarVisibleAfterLogin" />
         <item itemvalue="TestNG.SearcFieldTest.FindUser" />
         <item itemvalue="TestNG.SearcFieldTest.SearchFieldIsVisibleAfterLogin" />
       </list>
@@ -204,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677477547529</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test pages 3">
+      <created>1677927401335</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677927401335</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -217,7 +225,8 @@
     <MESSAGE value="run tests text file" />
     <MESSAGE value="text file" />
     <MESSAGE value="text file run" />
-    <option name="LAST_COMMIT_MESSAGE" value="text file run" />
+    <MESSAGE value="test pages 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="test pages 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -226,6 +235,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/KrasiAQA/Header.java</url>
           <line>56</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/krasi/qa/pages/Header.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

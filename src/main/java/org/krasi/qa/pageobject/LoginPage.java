@@ -12,7 +12,6 @@ import java.time.Duration;
 
 public class LoginPage {
 
-
     public static final String PAGE_URL = "http://training.skillo-bg.com:4300/users/login";
     private WebDriver driver;
     private WebElement signInButton = driver.findElement(By.id("sign-in-button"));
