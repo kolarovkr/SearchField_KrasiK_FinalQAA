@@ -7,7 +7,7 @@
         <methods>
           <include name="setUpTest"/>
           <include name="setupTestSuite"/>
-          <include name="testFindUser" invocation-numbers="0 2"/>
+          <include name="testFindUser" invocation-numbers="0 1"/>
           <include name="tearDownTest"/>
         </methods>
       </class> <!-- TestSearchField -->

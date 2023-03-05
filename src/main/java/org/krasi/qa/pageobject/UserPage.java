@@ -19,7 +19,7 @@ public class UserPage {
         this.driver.get(PAGE_URL);
     }
     public boolean isUrlLoaded() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         return wait.until(ExpectedConditions.urlContains(PAGE_URL));
 
     }

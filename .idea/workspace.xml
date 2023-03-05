@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="dd61a418-b50a-40c2-b59f-9f4a74f833cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pageobject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pageobject/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Reports/testpages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pageobject/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pageobject/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pageobject/UserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pageobject/UserPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pages/UserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pages/UserPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Reports/test5" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Screenshots/testFindUser.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Screenshots/testFindUser.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSearchField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSearchField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
@@ -212,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677927401335</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test 5">
+      <created>1677934853971</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677934853971</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -226,7 +235,8 @@
     <MESSAGE value="text file" />
     <MESSAGE value="text file run" />
     <MESSAGE value="test pages 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="test pages 3" />
+    <MESSAGE value="test 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -235,11 +245,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/KrasiAQA/Header.java</url>
           <line>56</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/krasi/qa/pages/Header.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

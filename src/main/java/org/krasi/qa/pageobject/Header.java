@@ -31,7 +31,7 @@ public class Header {
     }
 
     public void spaceCallAllUsers(){
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         wait.until(ExpectedConditions.visibilityOf(searchBar));
         searchBar.sendKeys(" ");
     }
@@ -41,7 +41,7 @@ public class Header {
     }
 
     public void findUser(){
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         wait.until(ExpectedConditions.visibilityOf(searchBar));
         searchBar.sendKeys("krasik");
         wait.until(ExpectedConditions.visibilityOf(userKrasiK));
