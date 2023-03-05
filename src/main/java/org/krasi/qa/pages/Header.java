@@ -20,8 +20,6 @@ public class Header {
     @FindBy(id = "search-bar")
     private WebElement searchBar;
 
-    @FindBy(xpath = "//a[text()='krasik']")
-    private WebElement userKrasiK;
 
     public Header(WebDriver driver) {
         this.driver = driver;
@@ -29,7 +27,7 @@ public class Header {
     }
 
     public void clickProfile() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         wait.until(ExpectedConditions.elementToBeClickable(profileLink));
         profileLink.click();
     }

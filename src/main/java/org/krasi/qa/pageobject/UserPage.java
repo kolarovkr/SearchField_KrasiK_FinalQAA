@@ -1,6 +1,8 @@
 package org.krasi.qa.pageobject;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -23,4 +25,9 @@ public class UserPage {
         return wait.until(ExpectedConditions.urlContains(PAGE_URL));
 
     }
+    public String getUsername() {
+        WebElement username = driver.findElement(By.tagName("h2"));
+        return username.getText();
+    }
+
 }

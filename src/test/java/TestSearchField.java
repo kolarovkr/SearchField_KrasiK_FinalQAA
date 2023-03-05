@@ -32,7 +32,8 @@ public class TestSearchField extends TestObject{
         header.selectUser(user);
         UserPage userPage = new UserPage(getDriver());
         Assert.assertTrue(userPage.isUrlLoaded());
-
+        Assert.assertEquals(userPage.getUsername(),user);
     }
+
 
 }

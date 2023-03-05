@@ -10,40 +10,49 @@ import java.time.Duration;
 
 public class Header {
 
-    private WebDriver driver;
+    private final WebDriver driver;
 
     public Header(WebDriver driver) {
         this.driver = driver;
     }
-    private WebElement profileLink = driver.findElement(By.id("nav-link-profile"));
-    private WebElement loginLink = driver.findElement(By.id("nav-link-login"));
-    private WebElement searchBar = driver.findElement(By.id("search-bar"));
-    private WebElement userKrasiK = driver.findElement(By.xpath("//a[text()='krasik']"));
 
     public void clickProfile() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        WebElement profileLink = driver.findElement(By.id("nav-link-profile"));
         wait.until(ExpectedConditions.elementToBeClickable(profileLink));
         profileLink.click();
     }
 
     public void clickLogin() {
+        WebElement loginLink = driver.findElement(By.id("nav-link-login"));
         loginLink.click();
     }
 
     public void spaceCallAllUsers(){
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
+        WebElement searchBar = driver.findElement(By.id("search-bar"));
         wait.until(ExpectedConditions.visibilityOf(searchBar));
         searchBar.sendKeys(" ");
     }
 
     public boolean isSearchBarVisible(){
+        WebElement searchBar = driver.findElement(By.id("search-bar"));
         return searchBar.isDisplayed();
     }
 
-    public void findUser(){
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+    public void findUser(String user){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
+        WebElement searchBar = driver.findElement(By.id("search-bar"));
         wait.until(ExpectedConditions.visibilityOf(searchBar));
-        searchBar.sendKeys("krasik");
-        wait.until(ExpectedConditions.visibilityOf(userKrasiK));
+        searchBar.sendKeys(user);
+        WebElement findUser = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText(user)));
+    }
+    public void selectUser(String user){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
+        WebElement searchBar = driver.findElement(By.id("search-bar"));
+        wait.until(ExpectedConditions.visibilityOf(searchBar));
+        searchBar.sendKeys(user);
+        WebElement findUser = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText(user)));
+        findUser.click();
     }
 }

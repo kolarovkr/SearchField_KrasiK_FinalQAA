@@ -5,24 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd61a418-b50a-40c2-b59f-9f4a74f833cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/Reports/test7" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pageobject/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pageobject/Header.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pageobject/UserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pageobject/UserPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pages/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pages/Header.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pages/UserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/krasi/qa/pages/UserPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Reports/test5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Reports/test6" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Screenshots/testFindUser.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Screenshots/testFindUser.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSearchField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSearchField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/SearchField_KrasiK_FinalQAA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestSearchField.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestSearchField.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677934853971</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test 6">
+      <created>1678044753043</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678044753043</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -236,7 +241,8 @@
     <MESSAGE value="text file run" />
     <MESSAGE value="test pages 3" />
     <MESSAGE value="test 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 5" />
+    <MESSAGE value="test 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
