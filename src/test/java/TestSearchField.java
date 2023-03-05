@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class TestSearchField extends TestObject{
     @DataProvider(name = "getUsers")
     public Object[][] getUsers(){
-        return new Object[][]{{"krasik@gmail.com", "224339K", "Startup2019"}, //login with username
+        return new Object[][]{{"krasik@gmail.com", "224339K", "marielka11"}, //login with username
                 {"testAdmin@gmail.com", "Admin1.User1", "MARIELKATA"}, //login with admin user
                 {"manager@gmail.com", "Manager1.Use1", "gerov"} //login with manager user
         };

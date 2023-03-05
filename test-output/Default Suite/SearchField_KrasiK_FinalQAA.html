@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>SearchField_KrasiK_FinalQAA</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Mar 05 22:28:02 EET 2023</td>
+<td>Started on:</td><td>Sun Mar 05 22:47:25 EET 2023</td>
 </tr>
-<tr><td>Total time:</td><td>135 seconds (135553 ms)</td>
+<tr><td>Total time:</td><td>112 seconds (112463 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,62 +76,6 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestSearchField.testFindUser()'><b>testFindUser</b><br>Test class: TestSearchField<br>Parameters: krasik@gmail.com, 224339K, Startup2019</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.linkText: Startup2019 (tried for 40 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.7.1&apos;, revision: &apos;c6795baf1a3&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.63, ms:edgeOptions: {debuggerAddress: localhost:54846}, msedge: {msedgedriverVersion: 110.0.1587.63 (b26c9b8fc01e..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54846/devtoo..., se:cdpVersion: 110.0.1587.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9b34882ff299ba275944aaef96089378
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at org.krasi.qa.pages.Header.selectUser(Header.java:59)
-	at TestSearchField.testFindUser(TestSearchField.java:32)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace837981622", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace837981622'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.linkText: Startup2019 (tried for 40 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.7.1&apos;, revision: &apos;c6795baf1a3&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.63, ms:edgeOptions: {debuggerAddress: localhost:54846}, msedge: {msedgedriverVersion: 110.0.1587.63 (b26c9b8fc01e..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54846/devtoo..., se:cdpVersion: 110.0.1587.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9b34882ff299ba275944aaef96089378
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at org.krasi.qa.pages.Header.selectUser(Header.java:59)
-	at TestSearchField.testFindUser(TestSearchField.java:32)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div></td>
-<td>46</td>
-<td>TestSearchField@223aa2f7</td></tr>
-<tr>
 <td title='TestSearchField.testFindUser()'><b>testFindUser</b><br>Test class: TestSearchField<br>Parameters: testAdmin@gmail.com, Admin1.User1, MARIELKATA</td>
 <td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: MicrosoftEdge=110.0.1587.63)
@@ -139,10 +83,10 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: &apos;4.7.1&apos;, revision: &apos;c6795baf1a3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [5cfc6862a2d607a7314abca36ddf2b8b, clickElement {id=fdf125a5-bddf-47fa-a188-4c101aae1d1a}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.63, ms:edgeOptions: {debuggerAddress: localhost:54908}, msedge: {msedgedriverVersion: 110.0.1587.63 (b26c9b8fc01e..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54908/devtoo..., se:cdpVersion: 110.0.1587.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (5cfc6862a2d607a7314abca36ddf2b8b)] -&gt; link text: MARIELKATA]
-Session ID: 5cfc6862a2d607a7314abca36ddf2b8b
+Command: [5bf40d6818598196392c858da24a9d1b, clickElement {id=db35f4ee-ad7c-461e-8d51-7311ec0fca91}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.63, ms:edgeOptions: {debuggerAddress: localhost:56044}, msedge: {msedgedriverVersion: 110.0.1587.63 (b26c9b8fc01e..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56044/devtoo..., se:cdpVersion: 110.0.1587.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (5bf40d6818598196392c858da24a9d1b)] -&gt; link text: MARIELKATA]
+Session ID: 5bf40d6818598196392c858da24a9d1b
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -157,17 +101,17 @@ Session ID: 5cfc6862a2d607a7314abca36ddf2b8b
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1215795615", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1215795615'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace438094511", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace438094511'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: MicrosoftEdge=110.0.1587.63)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: &apos;4.7.1&apos;, revision: &apos;c6795baf1a3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [5cfc6862a2d607a7314abca36ddf2b8b, clickElement {id=fdf125a5-bddf-47fa-a188-4c101aae1d1a}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.63, ms:edgeOptions: {debuggerAddress: localhost:54908}, msedge: {msedgedriverVersion: 110.0.1587.63 (b26c9b8fc01e..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54908/devtoo..., se:cdpVersion: 110.0.1587.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (5cfc6862a2d607a7314abca36ddf2b8b)] -&gt; link text: MARIELKATA]
-Session ID: 5cfc6862a2d607a7314abca36ddf2b8b
+Command: [5bf40d6818598196392c858da24a9d1b, clickElement {id=db35f4ee-ad7c-461e-8d51-7311ec0fca91}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.63, ms:edgeOptions: {debuggerAddress: localhost:56044}, msedge: {msedgedriverVersion: 110.0.1587.63 (b26c9b8fc01e..., userDataDir: C:\Users\KKolarov\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56044/devtoo..., se:cdpVersion: 110.0.1587.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (5bf40d6818598196392c858da24a9d1b)] -&gt; link text: MARIELKATA]
+Session ID: 5bf40d6818598196392c858da24a9d1b
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -212,7 +156,7 @@ Session ID: 5cfc6862a2d607a7314abca36ddf2b8b
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 </pre></div></td>
 <td>7</td>
-<td>TestSearchField@223aa2f7</td></tr>
+<td>TestSearchField@24fcf36f</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -223,25 +167,30 @@ Session ID: 5cfc6862a2d607a7314abca36ddf2b8b
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestSearchField.testIsSearchBarVisibleAfterLogin()'><b>testIsSearchBarVisibleAfterLogin</b><br>Test class: TestSearchField<br>Parameters: krasik@gmail.com, 224339K, Startup2019</td>
+<td title='TestSearchField.testFindUser()'><b>testFindUser</b><br>Test class: TestSearchField<br>Parameters: krasik@gmail.com, 224339K, marielka11</td>
 <td></td>
-<td>2</td>
-<td>TestSearchField@223aa2f7</td></tr>
-<tr>
-<td title='TestSearchField.testIsSearchBarVisibleAfterLogin()'><b>testIsSearchBarVisibleAfterLogin</b><br>Test class: TestSearchField<br>Parameters: testAdmin@gmail.com, Admin1.User1, MARIELKATA</td>
-<td></td>
-<td>3</td>
-<td>TestSearchField@223aa2f7</td></tr>
+<td>30</td>
+<td>TestSearchField@24fcf36f</td></tr>
 <tr>
 <td title='TestSearchField.testFindUser()'><b>testFindUser</b><br>Test class: TestSearchField<br>Parameters: manager@gmail.com, Manager1.Use1, gerov</td>
 <td></td>
-<td>31</td>
-<td>TestSearchField@223aa2f7</td></tr>
+<td>29</td>
+<td>TestSearchField@24fcf36f</td></tr>
 <tr>
 <td title='TestSearchField.testIsSearchBarVisibleAfterLogin()'><b>testIsSearchBarVisibleAfterLogin</b><br>Test class: TestSearchField<br>Parameters: manager@gmail.com, Manager1.Use1, gerov</td>
 <td></td>
 <td>2</td>
-<td>TestSearchField@223aa2f7</td></tr>
+<td>TestSearchField@24fcf36f</td></tr>
+<tr>
+<td title='TestSearchField.testIsSearchBarVisibleAfterLogin()'><b>testIsSearchBarVisibleAfterLogin</b><br>Test class: TestSearchField<br>Parameters: krasik@gmail.com, 224339K, marielka11</td>
+<td></td>
+<td>2</td>
+<td>TestSearchField@24fcf36f</td></tr>
+<tr>
+<td title='TestSearchField.testIsSearchBarVisibleAfterLogin()'><b>testIsSearchBarVisibleAfterLogin</b><br>Test class: TestSearchField<br>Parameters: testAdmin@gmail.com, Admin1.User1, MARIELKATA</td>
+<td></td>
+<td>3</td>
+<td>TestSearchField@24fcf36f</td></tr>
 </table><p>
 </body>
 </html>
